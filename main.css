@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(images/fon_img.jpg);
+  /* backdrop-filter: blur(1px); */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+.form-box {
+  background-image: url(images/fon_authorization.webp);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: rgb(241, 162, 15);
+}
+.form-box h2 {
+  margin-bottom: 60px;
+}
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: rgb(241, 162, 15);
+  border-radius: 10px;
+  justify-content: center;
+}
+.form-box button {
+  background: white;
+  color: rgb(241, 162, 15);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.form-box button:hover {
+  background: dodgerblue;
+}
+.form-box p {
+  margin-top: 10px;
+}
+.form-box a {
+  color: crimson;
+  text-decoration: none;
+}
+.form-box a:hover {
+  text-decoration: underline;
+}
